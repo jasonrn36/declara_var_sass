@@ -1,0 +1,15 @@
+{
+  "name": "declara_var_sass",
+  "version": "1.0.0",
+  "description": "Programa de Declaração de variáveis",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass source/main.scss build/main.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jason Ramalho Nascimento",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.88.0"
+  }
+}
