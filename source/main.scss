@@ -1,10 +1,31 @@
 $corPrincipal: rgb(249, 249, 249);
-$corSecundaria: rgb(26, 3, 44);
-$corFonteH1:rgb(255, 244, 202);
+$corSecundaria: rgb(44, 14, 67);
+$corFonteH3:rgb(251, 255, 146);
+$fontePrincipal: Arial;
+
+
 body {
     background-color: $corPrincipal;
 }
 
-h1 {
-color: $corFonteH1;
+header {
+    background-color: $corSecundaria;
+}
+.cabecalho {
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding: 16px;
+    background-color: $corSecundaria;
+    font-family: $fontePrincipal;
+    color: $corFonteH3;
+}
+
+a, h3 {
+color: $corFonteH3;
+font-family: $fontePrincipal;
+    &:hover{
+        background-color: red;
+        color: black;
+    }
 }
