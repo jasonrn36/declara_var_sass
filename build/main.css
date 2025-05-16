@@ -1,5 +1,9 @@
 body {
-  background--color: blue;
+  background-color: rgb(25, 13, 13);
+}
+
+header {
+  color: aliceblue;
 }
 
 /*# sourceMappingURL=main.css.map */
