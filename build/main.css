@@ -1,28 +1,12 @@
-body {
-  background-color: rgb(249, 249, 249);
-}
-
-header {
-  background-color: rgb(44, 14, 67);
-}
-
-.cabecalho {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 16px;
-  background-color: rgb(44, 14, 67);
-  font-family: Arial;
-  color: rgb(251, 255, 146);
-}
-
-a, h3 {
-  color: rgb(251, 255, 146);
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
   font-family: Arial;
 }
-a:hover, h3:hover {
-  background-color: red;
-  color: black;
+
+.produtos {
+  background-color: green;
 }
 
 /*# sourceMappingURL=main.css.map */
